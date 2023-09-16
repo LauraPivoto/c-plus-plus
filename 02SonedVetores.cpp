@@ -11,6 +11,8 @@ int main()
 	cin >> N;
 	int vetor[N];
 
+	cout<<"Digite o vetor de entrada: "<<endl;
+
 	for(control = 0; control < N; control++)
 	{
 		cin >> vetor[control];
@@ -33,7 +35,7 @@ int main()
 	}
 	else if(n_existe==0)
 	{
-		cout << " Valor não pertence ao vetor";
+		cout << " Valor nÃ£o pertence ao vetor";
 	}
 
 
