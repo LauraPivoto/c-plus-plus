@@ -35,7 +35,7 @@ int main()
 	}
 	else if(n_existe==0)
 	{
-		cout << " Valor não pertence ao vetor";
+		cout << " Valor não pertence a esse vetor";
 	}
 
 
